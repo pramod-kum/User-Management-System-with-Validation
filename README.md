@@ -27,13 +27,13 @@ This project is a User management system built using Spring Boot with Java.
 
 The user data model is defined in the UserModel class with validation anotation, which has the following attributes:
 
-userId :  @NotNull and unique identifier for each user
-userName : @NotBlank @NotEmpty @Pattern type name of the user
-dateOfBirth : @Pattern type used
-emailId : @Email @NotEmpty type used
-phoneNumber : @Size(min = 10 , max = 12) @PatternPhone type number of the user
-date : @Pattern type used
-time : @Pattern type used
+userId :  @NotNull and unique identifier for each user <br>
+userName : @NotBlank @NotEmpty @Pattern type name of the user <br>
+dateOfBirth : @Pattern type used <br>
+emailId : @Email @NotEmpty type used <br>
+phoneNumber : @Size(min = 10 , max = 12) @PatternPhone type number of the user <br>
+date : @Pattern type used <br>
+time : @Pattern type used <br>
 
 
 ---
